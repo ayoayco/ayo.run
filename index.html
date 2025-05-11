@@ -7,18 +7,25 @@
   <title>ayo.run: what's running?</title>
   <link rel="stylesheet" href="pico.min.css">
   <style>
-    html body {
+    html, body {
+      height: 100%;
+    }
+    body {
       padding: 1em;
+      place-content: safe center;
+      display: grid;
     }
   </style>
 </head>
 
 <body>
-  <h1>What's running?</h1>
-  <ul>
-    <li><strong>Forgejo</strong> - <a href="https://git.ayo.run/ayo">git.ayo.run</a></li>
-    <li><strong>Coolify</strong> - <a href="https://host.ayo.run">host.ayo.run</a></li>
-  </ul>
+  <main>
+    <h1>What's running?</h1>
+    <ul>
+      <li><strong>Forgejo</strong> - <a href="https://git.ayo.run/ayo">git.ayo.run</a></li>
+      <li><strong>Coolify</strong> - <a href="https://host.ayo.run">host.ayo.run</a></li>
+    </ul>
+  </main>
 </body>
 
 </html>
