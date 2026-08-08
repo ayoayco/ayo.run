@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Coolify",
+    "project": "http://coolify.io/",
+    "url": "https://host.ayo.run/",
+    "label": "host.ayo.run"
+  },
+  {
+    "name": "Immich",
+    "project": "http://immich.app/",
+    "url": "https://pics.ayo.run/",
+    "label": "pics.ayo.run"
+  },
+  {
+    "name": "Vaultwarden",
+    "project": "https://github.com/dani-garcia/vaultwarden#readme",
+    "url": "https://pass.ayo.run/",
+    "label": "pass.ayo.run"
+  },
+  {
+    "name": "Forgejo",
+    "project": "https://forgejo.org",
+    "url": "https://git.ayo.run/ayo",
+    "label": "git.ayo.run"
+  },
+  {
+    "name": "Open WebUI",
+    "project": "https://github.com/open-webui/open-webui#readme",
+    "url": "https://ai.ayo.run",
+    "label": "ai.ayo.run"
+  },
+  {
+    "name": "Excalidraw",
+    "project": "https://github.com/excalidraw/excalidraw",
+    "url": "https://draw.ayo.run",
+    "label": "draw.ayo.run"
+  },
+  {
+    "name": "Code",
+    "project": "https://coder.com/solutions/workspaces",
+    "url": "https://code.ayo.run",
+    "label": "code.ayo.run"
+  },
+  {
+    "name": "Uptime Kuma",
+    "project": "https://uptimekuma.org",
+    "url": "https://up.ayo.run/status/all",
+    "label": "up.ayo.run"
+  },
+  {
+    "name": "BentoPDF",
+    "project": "https://github.com/alam00000/bentopdf#readme",
+    "url": "https://pdf.ayo.run",
+    "label": "pdf.ayo.run"
+  },
+  {
+    "name": "Readeck",
+    "project": "https://readeck.org",
+    "url": "https://read.ayo.run",
+    "label": "read.ayo.run"
+  }
+]

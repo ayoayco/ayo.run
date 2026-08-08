@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayo.run - What's running? - a personal website by Ayo</title>
+  <meta property="og:description" content="Home to self-hosted open source productivity web apps. A personal website by Ayo">
+  <meta name="description" content="Home to self-hosted open source productivity web apps. A personal website by Ayo">
+  <meta itemprop="description" content="Home to self-hosted open source productivity web apps. A personal website by Ayo">
+  <meta property="og:title" content="Ayo.run - What's running?">
+  <meta property="og:url" content="http://ayo.run">
+  <meta property="og:site_name" content="www.ayo.run">
+
+  <link rel="me" href="https://ayos.blog" />
+  <link rel="me" href="https://social.ayco.io/@ayo" />
+  <link rel="me" href="https://m.webtoo.ls/@ayo" />
+  <link rel="me" href="https://fosstodon.org/@ayo" />
+  <link rel="me" href="https://metapixl.com/@ayo" />
+
+  <link rel="stylesheet" href="pico.min.css">
+  <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      padding: 1em;
+      place-content: safe center;
+      display: grid;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+  <main>
+    <h1>What's running?</h1>
+    <ul>
+      {%- for app in apps %}
+      <li>
+        <a href="{{ app.project }}"><strong>{{ app.name }}</strong></a> &middot;
+        <a href="{{ app.url }}">{{ app.label }}</a>
+      </li>
+      {%- endfor %}
+    </ul>
+  </main>
+  <footer>
+    <hr />
+    <small>
+      <em>Just keep hosting.</em><br />
+      <em>A project by <a href="https://ayo.ayco.io">Ayo</a></em>
+    </small>
+  </footer>
+  </div>
+</body>
+
+</html>
