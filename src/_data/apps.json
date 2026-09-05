@@ -12,6 +12,13 @@
     "label": "pics.ayo.run"
   },
   {
+    "name": "ownCloud",
+    "project": "https://owncloud.com/",
+    "url": "https://drive.ayo.run/",
+    "label": "drive.ayo.run"
+  },
+
+  {
     "name": "Vaultwarden",
     "project": "https://github.com/dani-garcia/vaultwarden#readme",
     "url": "https://pass.ayo.run/",
